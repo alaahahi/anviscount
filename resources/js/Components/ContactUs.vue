@@ -4,7 +4,7 @@
 			<h2 class="hcont__h">CONTACT US</h2>
 			<div class="row">
 				<div class="col-lg-6">
-					<form class="hcontBox" data-aos="fade-up" data-aos-delay="50">
+					<form class="hcontBox" data-aos="fade-up" data-aos-delay="50" v-scroll-reveal-fade-up="{delay:'50'}">
 						<input type="text" placeholder="Name..." class="form-control hcontBox__input">
 						<input type="text" placeholder="E-mail..." class="form-control hcontBox__input">
 						<input type="text" placeholder="Phone..." class="form-control hcontBox__input">
@@ -13,7 +13,7 @@
 					</form>
 				</div>
 				<div class="col-lg-6">
-					<div class="hcontBox2" data-aos="fade-up" data-aos-delay="150">
+					<div class="hcontBox2" data-aos="fade-up" data-aos-delay="150" v-scroll-reveal-fade-up="{delay:'150'}">
 						<ul class="hcontList"  role="tablist">
 							<li class="hcontList__item" role="presentation">
 							  	<div class="hcontList__btn active" data-bs-toggle="pill" data-bs-target="#a1" type="button" role="tab" aria-selected="true">All Orders</div>

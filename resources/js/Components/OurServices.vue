@@ -4,7 +4,7 @@
 			<h2 class="services__h">Our SERVICES</h2>
 			<div class="row">
 				<div class="col-lg-6">
-					<div class="hmabtBo2" data-aos="fade-up" data-aos-delay="50">
+					<div class="hmabtBo2" data-aos="fade-up" data-aos-delay="50" v-scroll-reveal-fade-up="{delay:'250'}">
 						<h4 class="hmabtBo2__h">Certifications</h4>
 						<p class="hmabtBo2__para">
 							ISO 9001:2015 – Quality Management System
@@ -17,7 +17,7 @@
 				</div>
 				<div class="col-lg-6">
 					<div class="hmabtBox" data-aos="fade-up" data-aos-delay="150">
-						<div class="hmabtBox-ab flex-a" data-aos="zoom-in" data-aos-delay="50">
+						<div class="hmabtBox-ab flex-a" data-aos="zoom-in" data-aos-delay="50" v-scroll-reveal-zoom-in="{delay:'250'}">
 							<img src="assets/images/logo.png" alt="" class="hmabtBox-ab__img">
 						</div>
 						<div class="hmabtBox-imgholder">

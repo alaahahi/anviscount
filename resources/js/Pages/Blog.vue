@@ -7,7 +7,7 @@ import { Link } from '@inertiajs/inertia-vue3';
     <MainLayout>
   <div class="subbanner">
 		<div class="container-fluid">
-			<ol class="breadcrumb" data-aos="zoom-in" data-aos-delay="50">
+			<ol class="breadcrumb" data-aos="zoom-in" data-aos-delay="50"  v-scroll-reveal-fade-up="{delay:'50'}">
 				<li class="breadcrumb-item">
 					<a href="index.html">Home</a>
 				</li>
@@ -23,7 +23,7 @@ import { Link } from '@inertiajs/inertia-vue3';
 			</h2>
 			<div class="blog-wrpr">
 				<div class="blogBox1">
-					<div class="blogCard" data-aos="zoom-in" data-aos-delay="50">
+					<div class="blogCard" data-aos="zoom-in" data-aos-delay="50" v-scroll-reveal-zoom-in="{delay:'50'}">
 						<img src="assets/images/iso.jpg" alt="" class="blogCard__img" />
 						<a href="blog-details.html" class="blogCard__link"> ANSI National Accreditation Board (ANAB) </a>
 						<div class="blogCardRow flex-i">
@@ -41,7 +41,7 @@ import { Link } from '@inertiajs/inertia-vue3';
 							ANSI National Accreditation Board (ANAB) 
 						</p>
 					</div>
-					<div class="blogCard" data-aos="zoom-in" data-aos-delay="150">
+					<div class="blogCard" data-aos="zoom-in" data-aos-delay="150" v-scroll-reveal-zoom-in="{delay:'150'}">
 						<img src="assets/images/iso2.jpg" alt="" class="blogCard__img" />
 						<a href="blog-details.html" class="blogCard__link"> ANSI National Accreditation Board (ANAB) </a>
 						<div class="blogCardRow flex-i">
@@ -59,7 +59,7 @@ import { Link } from '@inertiajs/inertia-vue3';
 							ANSI National Accreditation Board (ANAB) 
 						</p>
 					</div>
-					<div class="blogCard" data-aos="zoom-in" data-aos-delay="250">
+					<div class="blogCard" data-aos="zoom-in" data-aos-delay="250" v-scroll-reveal-zoom-in="{delay:'250'}">
 						<img src="assets/images/iso3.jpg" alt="" class="blogCard__img" />
 						<a href="blog-details.html" class="blogCard__link"> ANSI National Accreditation Board (ANAB) </a>
 						<div class="blogCardRow flex-i">
@@ -77,7 +77,7 @@ import { Link } from '@inertiajs/inertia-vue3';
 							ANSI National Accreditation Board (ANAB) 
 						</p>
 					</div>
-					<div class="blogCard" data-aos="zoom-in" data-aos-delay="350">
+					<div class="blogCard" data-aos="zoom-in" data-aos-delay="350" v-scroll-reveal-zoom-in="{delay:'350'}">
 						<img src="assets/images/iso4.jpg" alt="" class="blogCard__img" />
 						<a href="blog-details.html" class="blogCard__link"> ANSI National Accreditation Board (ANAB) </a>
 						<div class="blogCardRow flex-i">

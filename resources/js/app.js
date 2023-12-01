@@ -24,10 +24,9 @@ const i18n = createI18n({
 });
 
 const slideUp = {
-  distance: '10%',
   easing: 'ease-in',
   origin: 'bottom',
-  duration: 500,
+  duration: 1000,
 };
 const fadeDown = {
   distance: '0',
@@ -40,13 +39,13 @@ const fadeDown = {
   rotate: { x: 0, y: 0, z: 0 },
 };
 const fadeUp = {
-  distance: '30%',
+  distance: '150px',
   origin: 'bottom',
   opacity: 1,
   scale: 1,
   easing: 'ease-in',
-  delay: 100,
-  duration: 600,
+  delay: 150,
+  duration: 1000,
   rotate: { x: 0, y: 0, z: 0 },
 };
 const ZoomIn = {

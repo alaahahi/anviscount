@@ -33,7 +33,7 @@ const questions = ref([{
     <MainLayout>
       <div class="subbanner">
         <div class="container-fluid">
-          <ol class="breadcrumb" data-aos="fade-up" data-aos-delay="50">
+          <ol class="breadcrumb" data-aos="fade-up" data-aos-delay="50"  v-scroll-reveal-fade-up="{delay:'50'}">
             <li class="breadcrumb-item">
               <a href="/">Home</a>
             </li>
@@ -45,7 +45,7 @@ const questions = ref([{
         <div class="container">
 			<div class="row faq-row">
 				<div class="col-lg-6">
-					<div class="faqbox" data-aos="fade-up" data-aos-delay="50">
+					<div class="faqbox" data-aos="fade-up" data-aos-delay="50" v-scroll-reveal-fade-up="{delay:'250'}">
 						<h6 class="faqbox__h6">FREQUENTLY ASKED QUESTIONS</h6>
 						<h6 class="faqbox__h2">Things you need to know and we know your’s</h6>
 						<div class="faqbox-row flex">
@@ -73,7 +73,7 @@ const questions = ref([{
 					</div>
 				</div>
 				<div class="col-lg-6">
-					<div class="faqbox2" data-aos="fade-up" data-aos-delay="250">
+					<div class="faqbox2" data-aos="fade-up" data-aos-delay="250" v-scroll-reveal-fade-up="{delay:'500'}">
                         <div>
                             <div
                             class="accordian-box"

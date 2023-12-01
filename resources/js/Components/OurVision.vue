@@ -20,8 +20,8 @@ swiperRef.slidePrev();
 </script>
 <template>
 	<section class="values">
-		<div class="container">
-			<ul class="valuesList"  role="tablist" data-aos="fade-up" data-aos-delay="250">
+		<div class="container" >
+			<ul class="valuesList"  role="tablist" data-aos="fade-up" data-aos-delay="250" v-scroll-reveal-fade-up="{delay:'250'}">
 				<li class="valuesList__item" role="presentation">
 					<div class="valuesList__btn active" data-bs-toggle="pill" data-bs-target="#allorders" type="button" role="tab" aria-selected="true"> Our Vision </div>
 				</li>
@@ -32,7 +32,7 @@ swiperRef.slidePrev();
 					<div class="valuesList__btn" data-bs-toggle="pill" data-bs-target="#completeorders" type="button" role="tab" aria-selected="false"> Our Core Values </div>
 				</li>
 			</ul>
-			<div class="tab-content" id="pills-tabContent" data-aos="fade-up" data-aos-delay="350">
+			<div class="tab-content" id="pills-tabContent" data-aos="fade-up" data-aos-delay="350" v-scroll-reveal-fade-up="{delay:'300'}">
 				<div class="tab-pane fade show active" id="allorders" role="tabpanel" tabindex="0">
 					<div class="row">
 						<div class="col-lg-6">

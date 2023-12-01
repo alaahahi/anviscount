@@ -1,17 +1,17 @@
 <template>
-    	<section class="about">
+    	<section class="about" > 
         <div class="container">
             <div class="banner-wrpr justify-between">
                 <p class="banner-wrpr-p">VISCOUNT</p>
                 <div class="bannerbox1">
-                    <div class="bannerbox1__box1" data-aos="fade-up" data-aos-delay="50">
+                    <div class="bannerbox1__box1" data-aos="fade-up" data-aos-delay="50"  v-scroll-reveal-fade-up="{delay:'850'}">
                         <img src="assets/images/a3.jpg" alt="">
                     </div>
                     <div class="bannerbox1__abbox">
                         <img src="assets/images/a2.jpg" alt="" class="bannerbox1__abbox-img">
                     </div>
                 </div>
-                <div class="bannerbox2" data-aos="fade-up" data-aos-delay="150">
+                <div class="bannerbox2" data-aos="fade-up" data-aos-delay="150" v-scroll-reveal-fade-up="{delay:'950'}">
                     <h4 class="bannerbox2__subh">ABOUT US</h4>
                     <h2 class="bannerbox2__h">
                         Viscount management system certifications

@@ -8,7 +8,7 @@ import Certifications from '@/Components/Certifications.vue';
     <MainLayout>
       <div class="subbanner">
 		<div class="container-fluid">
-			<ol class="breadcrumb" data-aos="fade-up" data-aos-delay="50">
+			<ol class="breadcrumb" data-aos="fade-up" data-aos-delay="50"  v-scroll-reveal-fade-up="{delay:'50'}">
 				<li class="breadcrumb-item">
 					<a href="/">Home</a>
 				</li>
