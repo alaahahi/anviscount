@@ -1,0 +1,502 @@
+<script setup>
+import MainLayout from '@/Layouts/MainLayout.vue';
+</script>
+<template>
+    <MainLayout>
+        <section class="cart">
+		<div class="container">
+			<div class="row cartrow">
+				<div class="col-sm-12 col-lg-8">
+					<div class="cartBox2">
+						<div class="cartBox2Row">
+							<div class="cartBox2Btn flex-a">
+								<i class="fa-solid fa-trash-can"></i>
+							</div>
+							<div class="cartBox2RowHolder flex-a">
+								<img src="/assets/images/our-library/20.jpg" alt="" class="cartBox2Row__img">
+							</div>
+							<div class="cartBox2RowBox1">
+								<a href="product-details.html" class="cartBox2RowBox1__hdng">كتابي الأول</a>
+								<p class="cartBox2RowBox1_prc">140 د.إ</p>
+							</div>
+							<div class="cartBox2RowBox2 flex-i">
+								<div class="cartBox2RowBox2Btn flex-a r-50">
+									<i class="fa-solid fa-plus"></i>
+								</div>
+								<span class="count">1</span>
+								<div class="cartBox2RowBox2Btn flex-a r-50">
+									<i class="fa-solid fa-minus"></i>
+								</div>
+							</div>
+						</div>
+						<div class="cartBox2Row">
+							<div class="cartBox2Btn flex-a">
+								<i class="fa-solid fa-trash-can"></i>
+							</div>
+							<div class="cartBox2RowHolder flex-a">
+								<img src="/assets/images/our-library/1.jpg" alt="" class="cartBox2Row__img">
+							</div>
+							<div class="cartBox2RowBox1">
+								<a href="product-details.html" class="cartBox2RowBox1__hdng">كتابي الأول</a>
+								<p class="cartBox2RowBox1_prc">140 د.إ</p>
+							</div>
+							<div class="cartBox2RowBox2 flex-i">
+								<div class="cartBox2RowBox2Btn flex-a r-50">
+									<i class="fa-solid fa-plus"></i>
+								</div>
+								<span class="count">1</span>
+								<div class="cartBox2RowBox2Btn flex-a r-50">
+									<i class="fa-solid fa-minus"></i>
+								</div>
+							</div>
+						</div>
+						<div class="cartBox2Row">
+							<div class="cartBox2Btn flex-a">
+								<i class="fa-solid fa-trash-can"></i>
+							</div>
+							<div class="cartBox2RowHolder flex-a">
+								<img src="/assets/images/our-library/2.jpeg" alt="" class="cartBox2Row__img">
+							</div>
+							<div class="cartBox2RowBox1">
+								<a href="product-details.html" class="cartBox2RowBox1__hdng">كتابي الأول</a>
+								<p class="cartBox2RowBox1_prc">140 د.إ</p>
+							</div>
+							<div class="cartBox2RowBox2 flex-i">
+								<div class="cartBox2RowBox2Btn flex-a r-50">
+									<i class="fa-solid fa-plus"></i>
+								</div>
+								<span class="count">1</span>
+								<div class="cartBox2RowBox2Btn flex-a r-50">
+									<i class="fa-solid fa-minus"></i>
+								</div>
+							</div>
+						</div>
+						<div class="cartBox2Row">
+							<div class="cartBox2Btn flex-a">
+								<i class="fa-solid fa-trash-can"></i>
+							</div>
+							<div class="cartBox2RowHolder flex-a">
+								<img src="/assets/images/our-library/3.jpeg" alt="" class="cartBox2Row__img">
+							</div>
+							<div class="cartBox2RowBox1">
+								<a href="product-details.html" class="cartBox2RowBox1__hdng">كتابي الأول</a>
+								<p class="cartBox2RowBox1_prc">140 د.إ</p>
+							</div>
+							<div class="cartBox2RowBox2 flex-i">
+								<div class="cartBox2RowBox2Btn flex-a r-50">
+									<i class="fa-solid fa-plus"></i>
+								</div>
+								<span class="count">1</span>
+								<div class="cartBox2RowBox2Btn flex-a r-50">
+									<i class="fa-solid fa-minus"></i>
+								</div>
+							</div>
+						</div>
+						<div class="cartBox2Row">
+							<div class="cartBox2Btn flex-a">
+								<i class="fa-solid fa-trash-can"></i>
+							</div>
+							<div class="cartBox2RowHolder flex-a">
+								<img src="/assets/images/our-library/4.jpg" alt="" class="cartBox2Row__img">
+							</div>
+							<div class="cartBox2RowBox1">
+								<a href="product-details.html" class="cartBox2RowBox1__hdng">كتابي الأول</a>
+								<p class="cartBox2RowBox1_prc">140 د.إ</p>
+							</div>
+							<div class="cartBox2RowBox2 flex-i">
+								<div class="cartBox2RowBox2Btn flex-a r-50">
+									<i class="fa-solid fa-plus"></i>
+								</div>
+								<span class="count">1</span>
+								<div class="cartBox2RowBox2Btn flex-a r-50">
+									<i class="fa-solid fa-minus"></i>
+								</div>
+							</div>
+						</div>
+						<div class="cartBox2Row">
+							<div class="cartBox2Btn flex-a">
+								<i class="fa-solid fa-trash-can"></i>
+							</div>
+							<div class="cartBox2RowHolder flex-a">
+								<img src="/assets/images/our-library/5.jpeg" alt="" class="cartBox2Row__img">
+							</div>
+							<div class="cartBox2RowBox1">
+								<a href="product-details.html" class="cartBox2RowBox1__hdng">كتابي الأول</a>
+								<p class="cartBox2RowBox1_prc">140 د.إ</p>
+							</div>
+							<div class="cartBox2RowBox2 flex-i">
+								<div class="cartBox2RowBox2Btn flex-a r-50">
+									<i class="fa-solid fa-plus"></i>
+								</div>
+								<span class="count">1</span>
+								<div class="cartBox2RowBox2Btn flex-a r-50">
+									<i class="fa-solid fa-minus"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-lg-4">
+					<div class="cartBox">
+						<h3 class="cartBox__h3">ملخص الطلبية</h3>
+						<div class="cartBoxRow flex-i">
+							<h4 class="cartBoxRow__h4">عدد الكتب :</h4>
+							<p class="cartBoxRow__p">3</p>
+						</div>
+						<div class="cartBoxRow flex-i">
+							<h4 class="cartBoxRow__h4">  إجمالي المشتريات :  </h4>
+							<p class="cartBoxRow__p">111</p>
+						</div>
+						<div class="cartBoxRow flex-i">
+							<h4 class="cartBoxRow__h4">  الشحن : </h4>
+							<p class="cartBoxRow__p">10 د.إ </p>
+						</div>
+						<div class="cartBoxRow flex-i">
+							<h4 class="cartBoxRow__h4"> المجموع </h4>
+							<p class="cartBoxRow__p"> 333 </p>
+						</div>
+						<a href="#" class="btn-checkout flex-a">إتمام عملية الشراء</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>  
+    </MainLayout>
+</template>
+<style scoped>
+.cart {
+  padding: 40px 0;
+}
+@media (max-width: 539px) {
+  .cart {
+    padding: 20px 0;
+  }
+}
+@media (max-width: 1023px) {
+  .cart .cartrow {
+    row-gap: 30px;
+  }
+}
+
+.cartBox {
+  padding: 25px 30px;
+  box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+}
+@media (max-width: 1399px) {
+  .cartBox {
+    padding: 20px 20px;
+  }
+}
+@media (max-width: 539px) {
+  .cartBox {
+    padding: 20px 15px;
+    border-radius: 10px;
+  }
+}
+.cartBox .cartBox__h3 {
+  font-size: 26px;
+  text-align: center;
+  color: #00aef1;
+  margin-bottom: 25px;
+}
+@media (max-width: 1799px) {
+  .cartBox .cartBox__h3 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 539px) {
+  .cartBox .cartBox__h3 {
+    font-size: 20px;
+    margin-bottom: 18px;
+  }
+}
+.cartBox .cartBoxRow {
+  justify-content: space-between;
+  padding-inline: 5px;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #e4e4e4;
+}
+@media (max-width: 1399px) {
+  .cartBox .cartBoxRow {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 539px) {
+  .cartBox .cartBoxRow {
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+  }
+}
+.cartBox .cartBoxRow__h4 {
+  font-size: 18px;
+  color: #6a6a6a;
+  font-weight: 500;
+}
+@media (max-width: 539px) {
+  .cartBox .cartBoxRow__h4 {
+    font-size: 15px;
+  }
+}
+.cartBox .cartBoxRow__p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+}
+@media (max-width: 539px) {
+  .cartBox .cartBoxRow__p {
+    font-size: 19px;
+  }
+}
+.cartBox .btn-checkout {
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 20px;
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-bottom: 5px solid #038ec5;
+  background-color: #00aef1;
+  border-radius: 30px;
+  font-size: 20px;
+  margin: 35px auto 0 auto;
+}
+.cartBox .btn-checkout:hover {
+  background-color: var(--primary-color);
+  border-bottom: 5px solid #b81f70;
+}
+@media (max-width: 1799px) {
+  .cartBox .btn-checkout {
+    margin: 30px auto 0 auto;
+    font-size: 19px;
+  }
+}
+@media (max-width: 539px) {
+  .cartBox .btn-checkout {
+    margin: 25px auto 0 auto;
+    font-size: 16px;
+    padding: 4px 20px;
+  }
+}
+
+.cartBox2 {
+  padding: 30px 0;
+  box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+}
+@media (max-width: 1799px) {
+  .cartBox2 {
+    padding: 25px 0;
+  }
+}
+@media (max-width: 539px) {
+  .cartBox2 {
+    padding: 18px 0;
+    border-radius: 10px;
+  }
+}
+.cartBox2 .cartBox2Row {
+  padding-inline: 30px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #e4e4e4;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+  display: flex;
+  align-items: flex-start;
+}
+.cartBox2 .cartBox2Row:nth-last-child(1) {
+  margin-bottom: 0;
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+@media (max-width: 1799px) {
+  .cartBox2 .cartBox2Row {
+    padding-inline: 25px;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+    padding-bottom: 22px;
+    margin-bottom: 22px;
+  }
+}
+@media (max-width: 1399px) {
+  .cartBox2 .cartBox2Row {
+    padding-inline: 20px;
+    -moz-column-gap: 16px;
+         column-gap: 16px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 539px) {
+  .cartBox2 .cartBox2Row {
+    padding-inline: 10px;
+    -moz-column-gap: 8px;
+         column-gap: 8px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e4e4e4;
+  }
+}
+.cartBox2 .cartBox2Btn {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 20px;
+  color: #b81f2e;
+  cursor: pointer;
+}
+.cartBox2 .cartBox2Btn:hover {
+  color: #c3c3c3;
+}
+@media (max-width: 1799px) {
+  .cartBox2 .cartBox2Btn {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1399px) {
+  .cartBox2 .cartBox2Btn {
+    font-size: 16px;
+  }
+}
+@media (max-width: 539px) {
+  .cartBox2 .cartBox2Btn {
+    font-size: 14px;
+  }
+}
+.cartBox2 .cartBox2RowHolder {
+  width: 100px;
+  height: 120px;
+  padding: 5px;
+  border: 1px solid #e4e4e4;
+  border-radius: 4px;
+}
+@media (max-width: 1399px) {
+  .cartBox2 .cartBox2RowHolder {
+    width: 90px;
+    height: 110px;
+  }
+}
+@media (max-width: 539px) {
+  .cartBox2 .cartBox2RowHolder {
+    width: 85px;
+    height: 90px;
+    padding: 3px;
+  }
+}
+.cartBox2 .cartBox2RowHolder .cartBox2Row__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+  border-radius: 4px;
+}
+.cartBox2 .cartBox2RowBox1 {
+  width: 60%;
+}
+.cartBox2 .cartBox2RowBox1__hdng {
+  font-size: 28px;
+  display: block;
+}
+.cartBox2 .cartBox2RowBox1__hdng:hover {
+  color: var(--primary-color);
+}
+@media (max-width: 1799px) {
+  .cartBox2 .cartBox2RowBox1__hdng {
+    font-size: 26px;
+  }
+}
+@media (max-width: 1399px) {
+  .cartBox2 .cartBox2RowBox1__hdng {
+    font-size: 23px;
+  }
+}
+@media (max-width: 539px) {
+  .cartBox2 .cartBox2RowBox1__hdng {
+    font-size: 16px;
+  }
+}
+.cartBox2 .cartBox2RowBox1_prc {
+  color: #00aef1;
+  font-size: 24px;
+}
+@media (max-width: 1799px) {
+  .cartBox2 .cartBox2RowBox1_prc {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1399px) {
+  .cartBox2 .cartBox2RowBox1_prc {
+    font-size: 20px;
+  }
+}
+@media (max-width: 539px) {
+  .cartBox2 .cartBox2RowBox1_prc {
+    font-size: 14px;
+  }
+}
+.cartBox2 .cartBox2RowBox2 {
+  margin-right: auto;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+@media (max-width: 1399px) {
+  .cartBox2 .cartBox2RowBox2 {
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+  }
+}
+@media (max-width: 539px) {
+  .cartBox2 .cartBox2RowBox2 {
+    -moz-column-gap: 8px;
+         column-gap: 8px;
+  }
+}
+.cartBox2 .cartBox2RowBox2Btn {
+  width: 34px;
+  height: 34px;
+  background-color: #00aef1;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+.cartBox2 .cartBox2RowBox2Btn:hover {
+  background-color: #e6e6e6;
+}
+@media (max-width: 1799px) {
+  .cartBox2 .cartBox2RowBox2Btn {
+    width: 32px;
+    height: 32px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 1399px) {
+  .cartBox2 .cartBox2RowBox2Btn {
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 539px) {
+  .cartBox2 .cartBox2RowBox2Btn {
+    width: 22px;
+    height: 22px;
+    font-size: 12px;
+  }
+}
+.cartBox2 .count {
+  font-size: 28px;
+}
+@media (max-width: 1799px) {
+  .cartBox2 .count {
+    font-size: 25px;
+  }
+}
+@media (max-width: 539px) {
+  .cartBox2 .count {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=cart.css.map */
+</style>

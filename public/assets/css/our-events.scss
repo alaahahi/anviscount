@@ -1,0 +1,126 @@
+.ourevents{
+    padding: 50px 0;
+    @media (max-width: 1399px){
+        & {
+            padding: 30px 0;
+        }
+    }
+    @media (max-width: 767px){
+        & {
+            padding: 20px 0;
+        }
+    }
+    .section-hdng--ourevents{
+        margin-bottom: 50px;
+        @media (max-width: 1399px){
+            & {
+                margin-bottom: 30px;
+            }
+        }
+        @media (max-width: 767px){
+            & {
+                margin-bottom: 15px;
+                font-size: 28px;
+            }
+        }
+    }
+    .ourevents-row{
+        &:nth-child(even){
+            flex-direction: row-reverse;
+        }
+        &:nth-last-child(1){
+            margin-bottom: 0;
+        }
+        margin-bottom: 50px;
+        @media (max-width: 1399px){
+            & {
+                margin-bottom: 30px;
+            }
+        }
+    }
+    .oureventsBox1__img{
+        width: 500px;
+        height: 380px;
+        border-radius: 20px;
+        object-fit: cover;
+        @media (max-width: 1399px){
+            & {
+                width: 460px;
+                height: 340px;
+            }
+        }
+        @media (max-width: 1199px){
+            & {
+                width: 400px;
+                height: 300px;
+                border-radius: 15px;
+            }
+        }
+        @media (max-width: 767px){
+            & {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+        @media (max-width: 539px){
+            & {
+                width: 100%;
+                height: 230px;
+                border-radius: 10px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .oureventsBox2__p{
+        line-height: 1.9;
+        font-size: 22px;
+        color: #333;
+        @media (max-width: 1399px){
+            & {
+                font-size: 20px;
+            }
+        }
+        @media (max-width: 1199px){
+            & {
+                font-size: 18px;
+            }
+        }
+        @media (max-width: 767px){
+            & {
+                font-size: 16px;
+            }
+        }
+    }
+    .oureventsBox2{
+        position: relative;
+    }
+    .oureventsBox2__font{
+        opacity: .2;
+        display: block;
+        position: absolute;
+        font-size: 335px;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%,-50%) rotate(-25deg);
+        color: var(--secondary-color);
+        line-height: 100%;
+        color: transparent;
+        -webkit-text-stroke: 1px #1892c1;
+        text-shadow: 15px 15px 1px #1892c1;
+        @media (max-width: 1399px){
+            & {
+                font-size: 290px;
+            }
+        }
+        @media (max-width: 1199px){
+            & {
+                font-size: 200px;
+            }
+        }
+        @media (max-width: 767px){
+            & {
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,299 @@
+.arabicClub {
+  padding: 50px 0 70px 0;
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 1199px) {
+  .arabicClub {
+    padding: 30px 0 40px 0;
+  }
+}
+@media (max-width: 767px) {
+  .arabicClub {
+    padding: 20px 0 30px 0;
+  }
+}
+.arabicClub .arabicClub__bg {
+  opacity: 0.2;
+  display: block;
+  position: absolute;
+  font-size: 335px;
+  color: transparent;
+  top: 0;
+  z-index: -1;
+  left: 10px;
+  -webkit-text-stroke: 1px #00aef1;
+  text-shadow: 15px 15px 1px #00aef1;
+  line-height: 1;
+}
+@media (max-width: 1799px) {
+  .arabicClub .arabicClub__bg {
+    font-size: 250px;
+  }
+}
+@media (max-width: 1199px) {
+  .arabicClub .arabicClub__bg {
+    font-size: 190px;
+  }
+}
+@media (max-width: 1023px) {
+  .arabicClub .arabicClub__bg {
+    font-size: 140px;
+    text-shadow: 5px 5px 1px #00aef1;
+  }
+}
+@media (max-width: 767px) {
+  .arabicClub .arabicClub__bg {
+    font-size: 90px;
+    left: 20px;
+  }
+}
+.arabicClub .arabicClub__bg2 {
+  top: auto;
+  bottom: 200px;
+  right: 20px;
+  transform: rotate(-25deg);
+  -webkit-text-stroke: 1px #eb258f;
+  text-shadow: 15px 15px 1px #1892c1;
+}
+@media (max-width: 1023px) {
+  .arabicClub .arabicClub__bg2 {
+    bottom: 400px;
+    right: 0;
+  }
+}
+.arabicClub .arabicClub__h3 {
+  font-size: 30px;
+  text-align: center;
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+@media (max-width: 539px) {
+  .arabicClub .arabicClub__h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+}
+.arabicClub .arabicClub__p {
+  font-size: 20px;
+  line-height: 1.7;
+  color: #333;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto 50px auto;
+}
+@media (max-width: 1199px) {
+  .arabicClub .arabicClub__p {
+    margin: 0 auto 30px auto;
+  }
+}
+@media (max-width: 539px) {
+  .arabicClub .arabicClub__p {
+    font-size: 16px;
+    margin: 0 auto 20px auto;
+  }
+}
+.arabicClub .arabicClubBox {
+  width: 780px;
+  margin: 0 auto 100px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 1199px) {
+  .arabicClub .arabicClubBox {
+    margin: 0 auto 60px auto;
+  }
+}
+@media (max-width: 1023px) {
+  .arabicClub .arabicClubBox {
+    width: 100%;
+  }
+}
+@media (max-width: 539px) {
+  .arabicClub .arabicClubBox {
+    margin-bottom: 20px;
+  }
+}
+.arabicClub .arabicClubBoxNumber {
+  width: 140px;
+  text-align: center;
+}
+@media (max-width: 1023px) {
+  .arabicClub .arabicClubBoxNumber {
+    width: 110px;
+  }
+}
+@media (max-width: 539px) {
+  .arabicClub .arabicClubBoxNumber {
+    width: 60px;
+  }
+}
+.arabicClub .arabicClubBoxNumber__p {
+  font-size: 18px;
+}
+@media (max-width: 1023px) {
+  .arabicClub .arabicClubBoxNumber__p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 539px) {
+  .arabicClub .arabicClubBoxNumber__p {
+    font-size: 12px;
+  }
+}
+.arabicClub .arabicClubBoxNumber__num {
+  font-size: 150px;
+  line-height: 1;
+  font-family: "Cabin Sketch", cursive;
+}
+@media (max-width: 1199px) {
+  .arabicClub .arabicClubBoxNumber__num {
+    font-size: 120px;
+  }
+}
+@media (max-width: 1023px) {
+  .arabicClub .arabicClubBoxNumber__num {
+    font-size: 100px;
+  }
+}
+@media (max-width: 539px) {
+  .arabicClub .arabicClubBoxNumber__num {
+    font-size: 50px;
+  }
+}
+.arabicClub .arabicClubBoxNumber__num1 {
+  color: #00aef1;
+}
+.arabicClub .arabicClubBoxNumber__num2 {
+  color: #ffcc2a;
+}
+.arabicClub .arabicClubBoxNumber__num3 {
+  color: #ec3137;
+}
+.arabicClub .arabicClubBoxLine {
+  position: relative;
+  width: 180px;
+  height: 90px;
+  border-radius: 50%;
+  border-bottom: 5px dashed #00aef1;
+}
+@media (max-width: 1023px) {
+  .arabicClub .arabicClubBoxLine {
+    width: 160px;
+    height: 80px;
+  }
+}
+@media (max-width: 539px) {
+  .arabicClub .arabicClubBoxLine {
+    width: 70px;
+    height: 35px;
+  }
+}
+.arabicClub .arabicClubInfo__h3 {
+  font-size: 32px;
+  color: var(--secondary-color);
+  margin-bottom: 30px;
+}
+@media (max-width: 1399px) {
+  .arabicClub .arabicClubInfo__h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 539px) {
+  .arabicClub .arabicClubInfo__h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+}
+.arabicClub .arabicClubInfo__desc {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 15px;
+}
+@media (max-width: 1399px) {
+  .arabicClub .arabicClubInfo__desc {
+    font-size: 18px;
+  }
+}
+@media (max-width: 539px) {
+  .arabicClub .arabicClubInfo__desc {
+    font-size: 16px;
+  }
+}
+.arabicClub .arabicClubInfo__btn {
+  font-size: 28px;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: var(--light-color);
+  padding: 8px 50px;
+  text-decoration: none;
+  border-radius: 50px;
+  background-color: #00aef1;
+  border-bottom: 6px solid #076b92;
+  margin-top: 40px;
+}
+.arabicClub .arabicClubInfo__btn:hover {
+  color: var(--light-color);
+  background-color: #eb2690;
+  border-bottom: 6px solid #b81f70;
+}
+@media (max-width: 1399px) {
+  .arabicClub .arabicClubInfo__btn {
+    padding: 8px 30px;
+    font-size: 24px;
+  }
+}
+@media (max-width: 1199px) {
+  .arabicClub .arabicClubInfo__btn {
+    padding: 8px 25px;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .arabicClub .arabicClubInfo__btn {
+    padding: 7px 20px;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+}
+@media (max-width: 539px) {
+  .arabicClub .arabicClubInfo__btn {
+    padding: 6px 14px;
+    font-size: 15px;
+    margin-top: 15px;
+  }
+}
+.arabicClub .arabicClub__img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
+  height: 467px;
+}
+@media (max-width: 1399px) {
+  .arabicClub .arabicClub__img {
+    height: 370px;
+  }
+}
+@media (max-width: 767px) {
+  .arabicClub .arabicClub__img {
+    height: 270px;
+  }
+}
+@media (max-width: 539px) {
+  .arabicClub .arabicClub__img {
+    height: 200px;
+    border-radius: 10px;
+  }
+}
+.arabicClub .arabicClubRow {
+  align-items: center;
+}
+@media (max-width: 1023px) {
+  .arabicClub .arabicClubRow {
+    row-gap: 25px;
+  }
+}/*# sourceMappingURL=our-clubs.css.map */

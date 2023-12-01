@@ -1,0 +1,199 @@
+.contactus{
+    padding: 70px 0;
+    .contactus-wrpr{
+        @media (max-width: 1023px) {
+            & {
+                flex-wrap: wrap;
+                row-gap: 25px;
+            }
+        }
+    }
+    @media (max-width: 1799px) {
+        & {
+            padding: 50px 0;
+        }
+    }
+    @media (max-width: 1599px) {
+        & {
+            padding: 40px 0;
+        }
+    }
+    @media (max-width: 1399px) {
+        & {
+            padding: 30px 0;
+        }
+    }
+}
+.contactusBox1{
+    padding: 35px 30px 50px 30px;
+    box-shadow: 0 3px 20px 0 rgba(0,0,0,0.06);
+    border-radius: 20px;
+    @media (max-width: 1199px) {
+        & {
+            padding: 20px 20px 30px 20px;
+        }
+    }
+    @media (max-width: 767px) {
+        & {
+            border-radius: 12px;
+        }
+    }
+    @media (max-width: 539px) {
+        & {
+            padding: 15px 14px 20px 14px;
+        }
+    }
+    .contactusBox1__h2{
+        font-size: 40px;
+        color: #00aef1;
+        margin-bottom: 5px;
+        font-weight: bold;
+        @media (max-width: 1199px) {
+            & {
+                font-size: 30px;
+            }
+        }
+        @media (max-width: 539px) {
+            & {
+                font-size: 24px;
+            }
+        }
+    }
+    .contactusBox1__p{
+        font-size: 20px;
+        color: #666;
+        margin-bottom: 30px;
+        @media (max-width: 1199px) {
+            & {
+                font-size:18px;
+                margin-bottom: 20px;
+            }
+        }
+        @media (max-width: 539px) {
+            & {
+                font-size: 16px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .contactForm{
+        width: 100%;
+    }
+    .contactForm__input{
+        width: 100%;
+        height: 50px;
+        padding: 10px 18px;
+        border-radius: 5px;
+        color: #666;
+        background-color: #f0f0f0;
+        margin-bottom: 15px;
+        border: none;
+        outline: none;
+        &::placeholder{
+            color: #666;
+        }
+        @media (max-width: 1199px) {
+            & {
+                height: 44px;
+                padding: 8px 16px;
+            }
+        }
+        @media (max-width: 539px) {
+            & {
+                height: 40px;
+                padding: 8px 14px;
+                font-size: 14px;
+            }
+        }
+    }
+    .contactForm__textarea{
+        height: 126px;
+    }
+    .contactForm__btn{
+        width: 100%;
+        padding: 9px 0;
+        color: var(--light-color);
+        border-radius: 30px;
+        border: none;
+        border-bottom: 5px solid #038ec5;
+        background-color: #00aef1;
+        font-size: 22px;
+        &:hover{
+            border-bottom: 5px solid #e2b626;
+            background-color: #ffcc2a;
+        }
+        @media (max-width: 1199px) {
+            & {
+                padding: 7px 0;
+                font-size: 18px;
+            }
+        }
+        @media (max-width: 539px) {
+            & {
+                padding: 6px 0;
+                font-size: 16px;
+            }
+        }
+    }
+}
+.contactusBox2{
+    padding: 20px;
+    box-shadow: 0 3px 20px 0 rgba(0,0,0,0.06);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    @media (max-width: 767px) {
+        & {
+            padding: 12px;
+            border-radius: 12px;
+        }
+    }
+    @media (max-width: 539px) {
+        & {
+            margin-bottom: 20px;
+        }
+    }
+    .contactusBox2__map{
+        width: 100%;
+        height: 550px;
+        border-radius: 15px;
+        @media (max-width: 1199px) {
+            & {
+                height: 465px;
+            }
+        }
+        @media (max-width: 1023px) {
+            & {
+                height: 400px;
+            }
+        }
+        @media (max-width: 767px) {
+            & {
+                height: 320px;
+            }
+        }
+        @media (max-width: 539px) {
+            & {
+                border-radius: 10px;
+                height: 260px;
+            }
+        }
+    }
+}
+
+.contactusBox2__h3{
+    font-size: 24px;
+    color: #00aef3;
+    font-weight: bold;
+    margin-bottom: 20px;
+    @media (max-width: 1199px) {
+        & {
+            font-size: 21px;
+        }
+    }
+    @media (max-width: 539px) {
+        & {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+    }
+}

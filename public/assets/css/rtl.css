@@ -1,0 +1,31 @@
+
+.ltr .fa-chevron-right,
+.ltr .fa-chevron-left{
+    transform: scaleX(-1);
+}
+.ltr .arabicClub .arabicClub__bg{
+    left: auto;
+    right: 10px;
+}
+.ltr .arabicClub .arabicClub__bg2 {
+    top: auto;
+    bottom: 200px;
+    right: 20px;
+    transform: rotate(-25deg);
+    -webkit-text-stroke: 1px #eb258f;
+    text-shadow: 15px 15px 1px #1892c1;
+}
+@media (max-width: 1023px){
+    .ltr .header .navlist {
+        right: auto;
+        left: -100%;
+    }
+    .ltr .header .navlist.active {
+        right: auto;
+        left: 0%;
+    }
+    .ltr .header .navlistCloseBtn {
+        left: auto;
+        right: 10px;
+    }
+}
