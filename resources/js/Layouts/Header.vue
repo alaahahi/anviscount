@@ -24,7 +24,6 @@ let language =ref(i18n.locale.value);
 
 
 const switchLocale = async (locale) => {
-	
       try {
         const response = await axios.get(`/lang/${locale}`);
 		language.value = locale; 
@@ -48,14 +47,16 @@ const switchLocale = async (locale) => {
 					<img src="assets/images/logo.png" alt="">
 				</a>
 				<div class="langbox">
-					<div class="langboxmini ar active">
-						<i class="fa-solid fa-earth-americas"></i>
-						<p class="langboxmini__p">Ar</p>
-					</div>
-					<div class="langboxmini en ">
-						<i class="fa-solid fa-earth-americas"></i>
-						<p class="langboxmini__p">En</p>
-					</div>
+					<div class="langboxmini ar" @click="switchLocale('ar')" :class="{'active':language=='en'}">
+                            <i class="fa-solid fa-earth-americas"></i>
+                            <p class="langboxmini__p">Ar</p>
+                        </div>
+                        <div class="langboxmini en " @click="switchLocale('en')" :class="{'active':language=='ar'}">
+                            <i class="fa-solid fa-earth-americas"></i>
+                            <p class="langboxmini__p">En</p>
+                        </div>
+
+	
 				</div>
 				<div class="mblLst__close flex-a" @click="closeNav">
 					<i class="fa-solid fa-xmark"></i>
@@ -208,14 +209,14 @@ const switchLocale = async (locale) => {
 							</li>
 						</ul>
 						<div class="langbox">
-							<div class="langboxmini ar active">
-								<i class="fa-solid fa-earth-americas"></i>
-								<p class="langboxmini__p">Ar</p>
-							</div>
-							<div class="langboxmini en ">
-								<i class="fa-solid fa-earth-americas"></i>
-								<p class="langboxmini__p">En</p>
-							</div>
+							<div class="langboxmini ar" @click="switchLocale('ar')" :class="{'active':language=='en'}">
+                            <i class="fa-solid fa-earth-americas"></i>
+                            <p class="langboxmini__p">Ar</p>
+                        </div>
+                        <div class="langboxmini en " @click="switchLocale('en')" :class="{'active':language=='ar'}">
+                            <i class="fa-solid fa-earth-americas"></i>
+                            <p class="langboxmini__p">En</p>
+                        </div>
 						</div>
 					</div>
 				</div>
@@ -366,7 +367,7 @@ const switchLocale = async (locale) => {
 						<i class="fa-duotone fa-cart-shopping" style="font-size: 16px;margin-top:10px;"></i>
 					</ResponsiveNav>
 					<div class="langbox">
-                          <div class="langboxmini ar" @click="switchLocale('ar')" :class="{'active':language=='en'}">
+						<div class="langboxmini ar" @click="switchLocale('ar')" :class="{'active':language=='en'}">
                             <i class="fa-solid fa-earth-americas"></i>
                             <p class="langboxmini__p">Ar</p>
                         </div>
@@ -374,6 +375,8 @@ const switchLocale = async (locale) => {
                             <i class="fa-solid fa-earth-americas"></i>
                             <p class="langboxmini__p">En</p>
                         </div>
+
+                         
                     </div>
 					<div class="hdrBox3NavListbtn" @click="openNav">
 						<i class="fa-solid fa-bars-progress"></i>
