@@ -1,31 +1,56 @@
 
-.ltr .fa-chevron-right,
-.ltr .fa-chevron-left{
+.rtl .hero .heroBox__img{
+    left: auto;
+    right: 0;
     transform: scaleX(-1);
 }
-.ltr .arabicClub .arabicClub__bg{
+.rtl .clients .clientsSl .clientsSlArr2,
+.rtl .recentProjects .recntslArr1{
     left: auto;
-    right: 10px;
+    right: 0;
 }
-.ltr .arabicClub .arabicClub__bg2 {
-    top: auto;
-    bottom: 200px;
-    right: 20px;
-    transform: rotate(-25deg);
-    -webkit-text-stroke: 1px #eb258f;
-    text-shadow: 15px 15px 1px #1892c1;
+.rtl .clients .clientsSl .clientsSlArr1,
+.rtl .recentProjects .recntslArr2{
+    left: 0;
+    right: auto;
 }
-@media (max-width: 1023px){
-    .ltr .header .navlist {
-        right: auto;
-        left: -100%;
-    }
-    .ltr .header .navlist.active {
-        right: auto;
-        left: 0%;
-    }
-    .ltr .header .navlistCloseBtn {
-        left: auto;
-        right: 10px;
-    }
+.rtl .contact .contactBox .contactBoxList__item i{
+    transform: scaleX(-1) translateY(10px) translateX(-3px);
+}
+.rtl .recentProjects .recntslCrd .recntslCrdBody .icon{
+    right: auto;
+    left: 20px;
+}
+.rtl .banner-sub-page .flex-i i,
+.rtl .our-services .sercrd .sercrdBody .sercrdBody__btn i,
+.rtl .recentProjects .recentProjects__link i,
+.rtl .recentProjects .recntslCrd .recntslCrdBody .icon i{
+    transform: scaleX(-1);
+}
+.rtl .mblLst {
+    left: auto;
+    right: -100%;
+}
+.rtl .mblLst.active {
+    left: auto;
+    right: 0;
+}
+.rtl .page i,
+.rtl .acridtn .acridtnSl .acridtnSlArr i{
+    transform: scaleX(-1);
+}
+.rtl .testi .testiSl .testiSlArr1{
+    right: auto;
+    left: 0;
+}
+.rtl .breadcrumb-item+.breadcrumb-item::before {
+    float: right;
+    padding-right: var(--bs-breadcrumb-item-padding-x);
+    color: var(--bs-breadcrumb-divider-color);
+    content: var(--bs-breadcrumb-divider, "/");
+    padding-left: var(--bs-breadcrumb-item-padding-x);
+}
+.rtl .breadcrumb-item+.breadcrumb-item {
+    padding-left: var(--bs-breadcrumb-item-padding-x);
+    padding-right: var(--bs-breadcrumb-item-padding-x);
 }

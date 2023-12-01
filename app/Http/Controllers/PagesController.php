@@ -22,13 +22,13 @@ class PagesController extends Controller
     {
         return Inertia::render('Home');   
     }
-    public function ourStory(Request $request)
+    public function about(Request $request)
     {
-        return Inertia::render('OurStory');   
+        return Inertia::render('About');   
     }
-    public function ourClubs(Request $request)
+    public function services(Request $request)
     {
-        return Inertia::render('OurClubs');   
+        return Inertia::render('Services');   
     }
     public function ourEvents(Request $request)
     {
@@ -46,9 +46,9 @@ class PagesController extends Controller
     {
         return Inertia::render('ContactUs');   
     }
-    public function cart(Request $request)
+    public function faq(Request $request)
     {
-        return Inertia::render('Cart');   
+        return Inertia::render('FAQ');   
     }
     public function productDetails(Request $request)
     {

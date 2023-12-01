@@ -5,19 +5,32 @@ import { Link } from '@inertiajs/inertia-vue3';
 </script>
 <template>
     <MainLayout>
-        <section class="blog">
+  <div class="subbanner">
+		<div class="container-fluid">
+			<ol class="breadcrumb" data-aos="zoom-in" data-aos-delay="50">
+				<li class="breadcrumb-item">
+					<a href="index.html">Home</a>
+				</li>
+				<li aria-current="page" class="breadcrumb-item active">Blog</li>
+			</ol>
+		</div>
+	</div>
+	<!-- hero end -->
+	<section class="blog">
 		<div class="container">
-			<h2 class="section-hdng section-hdng--blog">المدونة</h2>
+			<h2 class="section-hdng section-hdng--blog">
+				Blog
+			</h2>
 			<div class="blog-wrpr">
 				<div class="blogBox1">
-					<div class="blogCard">
-						<img src="/assets/images/blog/1.png" alt="" class="blogCard__img">
-						<Link href="blog-details/1" class="blogCard__link">رهين المحبسين</Link>
+					<div class="blogCard" data-aos="zoom-in" data-aos-delay="50">
+						<img src="assets/images/iso.jpg" alt="" class="blogCard__img" />
+						<a href="blog-details.html" class="blogCard__link"> ANSI National Accreditation Board (ANAB) </a>
 						<div class="blogCardRow flex-i">
 							<div class="blogCardBox1">
 								<i class="fa-regular fa-comment"></i>
 								<span>0</span>
-								<span>تعليق</span>
+								<span>comment</span>
 							</div>
 							<div class="blogCardBox1">
 								<i class="fa-regular fa-clock"></i>
@@ -25,17 +38,17 @@ import { Link } from '@inertiajs/inertia-vue3';
 							</div>
 						</div>
 						<p class="blogCard__p">
-							وُلِدَ الشّاعر والفيلسوف العربي أبو العلاء المعرّيّ في معرّة النّعمان الواقعة بين حمص وحلب في سورية، عام 973م،
+							ANSI National Accreditation Board (ANAB) 
 						</p>
 					</div>
-					<div class="blogCard">
-						<img src="/assets/images/blog/2.jpg" alt="" class="blogCard__img">
-						<Link href="blog-details/1" class="blogCard__link">كيف نشجّعُ أبناءَنا على القراءةِ؟</Link>
+					<div class="blogCard" data-aos="zoom-in" data-aos-delay="150">
+						<img src="assets/images/iso2.jpg" alt="" class="blogCard__img" />
+						<a href="blog-details.html" class="blogCard__link"> ANSI National Accreditation Board (ANAB) </a>
 						<div class="blogCardRow flex-i">
 							<div class="blogCardBox1">
 								<i class="fa-regular fa-comment"></i>
 								<span>0</span>
-								<span>تعليق</span>
+								<span>comment</span>
 							</div>
 							<div class="blogCardBox1">
 								<i class="fa-regular fa-clock"></i>
@@ -43,17 +56,17 @@ import { Link } from '@inertiajs/inertia-vue3';
 							</div>
 						</div>
 						<p class="blogCard__p">
-							وُلِدَ الشّاعر والفيلسوف العربي أبو العلاء المعرّيّ في معرّة النّعمان الواقعة بين حمص وحلب في سورية، عام 973م،
+							ANSI National Accreditation Board (ANAB) 
 						</p>
 					</div>
-					<div class="blogCard">
-						<img src="/assets/images/blog/3.png" alt="" class="blogCard__img">
-						<Link href="blog-details/1" class="blogCard__link">كيف نشجّعُ أبناءَنا على القراءةِ؟</Link>
+					<div class="blogCard" data-aos="zoom-in" data-aos-delay="250">
+						<img src="assets/images/iso3.jpg" alt="" class="blogCard__img" />
+						<a href="blog-details.html" class="blogCard__link"> ANSI National Accreditation Board (ANAB) </a>
 						<div class="blogCardRow flex-i">
 							<div class="blogCardBox1">
 								<i class="fa-regular fa-comment"></i>
 								<span>0</span>
-								<span>تعليق</span>
+								<span>comment</span>
 							</div>
 							<div class="blogCardBox1">
 								<i class="fa-regular fa-clock"></i>
@@ -61,17 +74,17 @@ import { Link } from '@inertiajs/inertia-vue3';
 							</div>
 						</div>
 						<p class="blogCard__p">
-							وُلِدَ الشّاعر والفيلسوف العربي أبو العلاء المعرّيّ في معرّة النّعمان الواقعة بين حمص وحلب في سورية، عام 973م،
+							ANSI National Accreditation Board (ANAB) 
 						</p>
 					</div>
-					<div class="blogCard">
-						<img src="/assets/images/blog/4.jpg" alt="" class="blogCard__img">
-						<Link href="blog-details/1" class="blogCard__link">كيف نشجّعُ أبناءَنا على القراءةِ؟</Link>
+					<div class="blogCard" data-aos="zoom-in" data-aos-delay="350">
+						<img src="assets/images/iso4.jpg" alt="" class="blogCard__img" />
+						<a href="blog-details.html" class="blogCard__link"> ANSI National Accreditation Board (ANAB) </a>
 						<div class="blogCardRow flex-i">
 							<div class="blogCardBox1">
 								<i class="fa-regular fa-comment"></i>
 								<span>0</span>
-								<span>تعليق</span>
+								<span>comment</span>
 							</div>
 							<div class="blogCardBox1">
 								<i class="fa-regular fa-clock"></i>
@@ -79,237 +92,188 @@ import { Link } from '@inertiajs/inertia-vue3';
 							</div>
 						</div>
 						<p class="blogCard__p">
-							وُلِدَ الشّاعر والفيلسوف العربي أبو العلاء المعرّيّ في معرّة النّعمان الواقعة بين حمص وحلب في سورية، عام 973م،
-						</p>
-					</div>
-					<div class="blogCard">
-						<img src="/assets/images/blog/5.jpg" alt="" class="blogCard__img">
-						<Link href="blog-details/1" class="blogCard__link">كيف نشجّعُ أبناءَنا على القراءةِ؟</Link>
-						<div class="blogCardRow flex-i">
-							<div class="blogCardBox1">
-								<i class="fa-regular fa-comment"></i>
-								<span>0</span>
-								<span>تعليق</span>
-							</div>
-							<div class="blogCardBox1">
-								<i class="fa-regular fa-clock"></i>
-								<span>2023/2/1</span>
-							</div>
-						</div>
-						<p class="blogCard__p">
-							وُلِدَ الشّاعر والفيلسوف العربي أبو العلاء المعرّيّ في معرّة النّعمان الواقعة بين حمص وحلب في سورية، عام 973م،
-						</p>
-					</div>
-					<div class="blogCard">
-						<img src="/assets/images/blog/6.jpg" alt="" class="blogCard__img">
-						<Link href="blog-details/1" class="blogCard__link">كيف نشجّعُ أبناءَنا على القراءةِ؟</Link>
-						<div class="blogCardRow flex-i">
-							<div class="blogCardBox1">
-								<i class="fa-regular fa-comment"></i>
-								<span>0</span>
-								<span>تعليق</span>
-							</div>
-							<div class="blogCardBox1">
-								<i class="fa-regular fa-clock"></i>
-								<span>2023/2/1</span>
-							</div>
-						</div>
-						<p class="blogCard__p">
-							وُلِدَ الشّاعر والفيلسوف العربي أبو العلاء المعرّيّ في معرّة النّعمان الواقعة بين حمص وحلب في سورية، عام 973م،
-						</p>
-					</div>
-					<div class="blogCard">
-						<img src="/assets/images/blog/7.jpg" alt="" class="blogCard__img">
-						<Link href="blog-details/1" class="blogCard__link">كيف نشجّعُ أبناءَنا على القراءةِ؟</Link>
-						<div class="blogCardRow flex-i">
-							<div class="blogCardBox1">
-								<i class="fa-regular fa-comment"></i>
-								<span>0</span>
-								<span>تعليق</span>
-							</div>
-							<div class="blogCardBox1">
-								<i class="fa-regular fa-clock"></i>
-								<span>2023/2/1</span>
-							</div>
-						</div>
-						<p class="blogCard__p">
-							وُلِدَ الشّاعر والفيلسوف العربي أبو العلاء المعرّيّ في معرّة النّعمان الواقعة بين حمص وحلب في سورية، عام 973م،
-						</p>
-					</div>
-					<div class="blogCard">
-						<img src="/assets/images/blog/8.jpg" alt="" class="blogCard__img">
-						<Link href="blog-details/1" class="blogCard__link">كيف نشجّعُ أبناءَنا على القراءةِ؟</Link>
-						<div class="blogCardRow flex-i">
-							<div class="blogCardBox1">
-								<i class="fa-regular fa-comment"></i>
-								<span>0</span>
-								<span>تعليق</span>
-							</div>
-							<div class="blogCardBox1">
-								<i class="fa-regular fa-clock"></i>
-								<span>2023/2/1</span>
-							</div>
-						</div>
-						<p class="blogCard__p">
-							وُلِدَ الشّاعر والفيلسوف العربي أبو العلاء المعرّيّ في معرّة النّعمان الواقعة بين حمص وحلب في سورية، عام 973م،
+							ANSI National Accreditation Board (ANAB) 
 						</p>
 					</div>
 					<div class="pagination pagination--blog">
-						<Link href="#" class="page page__prev">
-							<i class="fa-sharp fa-solid fa-chevron-right"></i>
-						</Link>
-						<Link href="#" class="page active flex-a">1</Link>
-						<Link href="#" class="page flex-a">2</Link>
-						<Link href="#" class="page flex-a">3</Link>
-						<Link href="#" class="page flex-a">4</Link>
-						<Link href="#">
-							.......
-						</Link>
-						<Link href="#" class="page flex-a">10</Link>
-						<Link href="#" class="page page__next">
+						<a href="#" class="page page__prev">
 							<i class="fa-sharp fa-solid fa-chevron-left"></i>
-						</Link>
+						</a>
+						<a href="#" class="page active flex-a">1</a>
+						<a href="#" class="page flex-a">2</a>
+						<a href="#" class="page flex-a">3</a>
+						<a href="#" class="page flex-a">4</a>
+						<a href="#">
+							.......
+						</a>
+						<a href="#" class="page flex-a">10</a>
+						<a href="#" class="page page__next">
+							<i class="fa-sharp fa-solid fa-chevron-right"></i>
+						</a>
 					</div>
 				</div>
 				<div class="blogBox2Holder">
 					<div class="blogBox2">
-						<h6 class="blogBox2__h6">آخر مقالاتنا</h6>
-						<div class="blogBox2Card">
+						<h6 class="blogBox2__h6">Our latest</h6>
+						<div class="blogBox2Card" data-aos="fade-up" data-aos-delay="50">
 							<div class="blogBox2CardBox1">
-								<img src="/assets/images/blog/1.png" alt="" class="blogBox2CardBox1__img">
+								<img src="assets/images/iso.jpg" alt="" class="blogBox2CardBox1__img">
 							</div>
 							<div class="blogBox2CardBox2">
-								<Link href="blog-details/1" class="blogBox2CardBox2__link"> رهين المحبسين </Link>
+								<a href="blog-details.html" class="blogBox2CardBox2__link">ANSI National Accreditation Board (ANAB)</a>
 								<div class="blogBox2CardBox2-row">
 									<i class="fa-regular fa-clock"></i>
 									<span>2023/1/2</span>
 								</div>
 							</div>
 						</div>
-						<div class="blogBox2Card">
+						<div class="blogBox2Card" data-aos="fade-up" data-aos-delay="150">
 							<div class="blogBox2CardBox1">
-								<img src="/assets/images/blog/2.jpg" alt="" class="blogBox2CardBox1__img">
+								<img src="assets/images/iso2.jpg" alt="" class="blogBox2CardBox1__img">
 							</div>
 							<div class="blogBox2CardBox2">
-								<Link href="blog-details/1" class="blogBox2CardBox2__link"> كيف نشجّعُ أبناءَنا على القراءةِ؟ </Link>
+								<a href="blog-details.html" class="blogBox2CardBox2__link">ANSI National Accreditation Board (ANAB)</a>
 								<div class="blogBox2CardBox2-row">
 									<i class="fa-regular fa-clock"></i>
 									<span>2023/1/2</span>
 								</div>
 							</div>
 						</div>
-						<div class="blogBox2Card">
+						<div class="blogBox2Card" data-aos="fade-up" data-aos-delay="250">
 							<div class="blogBox2CardBox1">
-								<img src="/assets/images/blog/3.png" alt="" class="blogBox2CardBox1__img">
+								<img src="assets/images/iso3.jpg" alt="" class="blogBox2CardBox1__img">
 							</div>
 							<div class="blogBox2CardBox2">
-								<Link href="blog-details/1" class="blogBox2CardBox2__link"> رهين المحبسين </Link>
+								<a href="blog-details.html" class="blogBox2CardBox2__link">ANSI National Accreditation Board (ANAB)</a>
 								<div class="blogBox2CardBox2-row">
 									<i class="fa-regular fa-clock"></i>
 									<span>2023/1/2</span>
 								</div>
 							</div>
 						</div>
-						<div class="blogBox2Card">
+						<div class="blogBox2Card" data-aos="fade-up" data-aos-delay="350">
 							<div class="blogBox2CardBox1">
-								<img src="/assets/images/blog/4.jpg" alt="" class="blogBox2CardBox1__img">
+								<img src="assets/images/iso4.jpg" alt="" class="blogBox2CardBox1__img">
 							</div>
 							<div class="blogBox2CardBox2">
-								<Link href="blog-details/1" class="blogBox2CardBox2__link"> رهين المحبسين </Link>
+								<a href="blog-details.html" class="blogBox2CardBox2__link">ANSI National Accreditation Board (ANAB)</a>
 								<div class="blogBox2CardBox2-row">
 									<i class="fa-regular fa-clock"></i>
 									<span>2023/1/2</span>
 								</div>
 							</div>
 						</div>
-						<div class="blogBox2Card">
-							<div class="blogBox2CardBox1">
-								<img src="/assets/images/blog/5.jpg" alt="" class="blogBox2CardBox1__img">
-							</div>
-							<div class="blogBox2CardBox2">
-								<Link href="blog-details/1" class="blogBox2CardBox2__link"> رهين المحبسين </Link>
-								<div class="blogBox2CardBox2-row">
-									<i class="fa-regular fa-clock"></i>
-									<span>2023/1/2</span>
-								</div>
-							</div>
-						</div>
-						<div class="blogBox2Card">
-							<div class="blogBox2CardBox1">
-								<img src="/assets/images/blog/6.jpg" alt="" class="blogBox2CardBox1__img">
-							</div>
-							<div class="blogBox2CardBox2">
-								<Link href="blog-details/1" class="blogBox2CardBox2__link"> رهين المحبسين </Link>
-								<div class="blogBox2CardBox2-row">
-									<i class="fa-regular fa-clock"></i>
-									<span>2023/1/2</span>
-								</div>
-							</div>
-						</div>
-						<div class="blogBox2Card">
-							<div class="blogBox2CardBox1">
-								<img src="/assets/images/blog/7.jpg" alt="" class="blogBox2CardBox1__img">
-							</div>
-							<div class="blogBox2CardBox2">
-								<Link href="blog-details/1" class="blogBox2CardBox2__link"> رهين المحبسين </Link>
-								<div class="blogBox2CardBox2-row">
-									<i class="fa-regular fa-clock"></i>
-									<span>2023/1/2</span>
-								</div>
-							</div>
-						</div>
-						<div class="blogBox2Card">
-							<div class="blogBox2CardBox1">
-								<img src="/assets/images/blog/8.jpg" alt="" class="blogBox2CardBox1__img">
-							</div>
-							<div class="blogBox2CardBox2">
-								<Link href="blog-details/1" class="blogBox2CardBox2__link"> رهين المحبسين </Link>
-								<div class="blogBox2CardBox2-row">
-									<i class="fa-regular fa-clock"></i>
-									<span>2023/1/2</span>
-								</div>
-							</div>
-						</div>
+
 					</div>
 					<div class="blogBox2">
-						<h6 class="blogBox2__h6"> تابعنا على </h6>
-						<ul class="blogBox2List">
+						<h6 class="blogBox2__h6"> Follow Us </h6>
+						<ul class="blogBox2List" data-aos="fade-up" data-aos-delay="50">
 							<li class="blogBox2List__item">
-								<Link href="#" class="blogBox2List__link blogBox2List__link1 flex-a">
+								<a href="#" class="blogBox2List__link blogBox2List__link1 flex-a">
 									<i class="fa-brands fa-facebook-f"></i>
-								</Link>
+								</a>
 							</li>
 							<li class="blogBox2List__item">
-								<Link href="#" class="blogBox2List__link blogBox2List__link2 flex-a">
+								<a href="#" class="blogBox2List__link blogBox2List__link2 flex-a">
 									<i class="fa-brands fa-twitter"></i>
-								</Link>
+								</a>
 							</li>
 							<li class="blogBox2List__item">
-								<Link href="#" class="blogBox2List__link blogBox2List__link3 flex-a">
+								<a href="#" class="blogBox2List__link blogBox2List__link3 flex-a">
 									<i class="fa-brands fa-instagram"></i>
-								</Link>
+								</a>
 							</li>
 							<li class="blogBox2List__item">
-								<Link href="#" class="blogBox2List__link blogBox2List__link4 flex-a">
+								<a href="#" class="blogBox2List__link blogBox2List__link4 flex-a">
 									<i class="fa-brands fa-linkedin"></i>
-								</Link>
+								</a>
 							</li>
 							<li class="blogBox2List__item">
-								<Link href="#" class="blogBox2List__link blogBox2List__link5 flex-a">
+								<a href="#" class="blogBox2List__link blogBox2List__link5 flex-a">
 									<i class="fa-brands fa-tiktok"></i>
-								</Link>
+								</a>
 							</li>
 						</ul>
 					</div>
 				</div>
-			
 			</div>
-			
 		</div>
 	</section>
     </MainLayout>
 </template>
 <style scoped>
+.subbanner {
+  height: 280px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.548)), url("./assets/images/iso3.jpg");
+}
+.subbanner .breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0;
+  margin-bottom: 1rem;
+  list-style: none;
+}
+.subbanner .breadcrumb li a {
+  color: #fff;
+}
+.subbanner .breadcrumb li.active {
+  color: #005abb;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+@media (max-width: 539px) {
+  .pagination {
+    -moz-column-gap: 5px;
+         column-gap: 5px;
+  }
+}
+.pagination .page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  width: 35px;
+  height: 35px;
+  background-color: #f2f7ff;
+  color: var(--main);
+  font-weight: 500;
+}
+.pagination .page.active, .pagination .page:hover {
+  background-color: var(--main);
+  color: #fff;
+}
+@media (max-width: 539px) {
+  .pagination .page {
+    width: 28px;
+    height: 28px;
+    font-size: 15px;
+  }
+}
+.pagination .page__next,
+.pagination .page__prev {
+  font-size: 14px;
+  background-color: var();
+}
+@media (max-width: 539px) {
+  .pagination .page__next,
+  .pagination .page__prev {
+    font-size: 12px;
+  }
+}
+
 .blog {
   padding: 50px 0;
 }
@@ -324,11 +288,34 @@ import { Link } from '@inertiajs/inertia-vue3';
   }
 }
 .blog .section-hdng--blog {
-  margin-bottom: 30px;
+  text-align: center;
+  color: var(--main);
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  margin-bottom: 50px;
 }
 @media (max-width: 1799px) {
   .blog .section-hdng--blog {
     margin-bottom: 20px;
+  }
+}
+@media (max-width: 1599px) {
+  .blog .section-hdng--blog {
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 1399px) {
+  .blog .section-hdng--blog {
+    font-size: 21px;
+  }
+}
+@media (max-width: 539px) {
+  .blog .section-hdng--blog {
+    font-size: 19px;
   }
 }
 .blog .blog-wrpr {
@@ -357,11 +344,10 @@ import { Link } from '@inertiajs/inertia-vue3';
 }
 .blog .blogCard {
   padding: 25px 25px;
-  border: 1px solid #dee2e6;
-  border-radius: 10px;
   width: 100%;
   margin-bottom: 15px;
   text-align: initial;
+  box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.05);
 }
 @media (max-width: 1199px) {
   .blog .blogCard {
@@ -379,7 +365,6 @@ import { Link } from '@inertiajs/inertia-vue3';
   -o-object-fit: cover;
      object-fit: cover;
   margin-bottom: 20px;
-  border-radius: 10px;
 }
 @media (max-width: 1799px) {
   .blog .blogCard__img {
@@ -398,27 +383,28 @@ import { Link } from '@inertiajs/inertia-vue3';
   }
 }
 .blog .blogCard__link {
-  color: #00aef1;
-  font-size: 28px;
+  color: var(--main);
+  font-size: 22px;
+  font-weight: 600;
   display: block;
   margin-bottom: 10px;
 }
 .blog .blogCard__link:hover {
-  color: #eb2690;
+  color: #f75a5a;
 }
 @media (max-width: 1799px) {
   .blog .blogCard__link {
-    font-size: 24px;
+    font-size: 21px;
   }
 }
 @media (max-width: 1199px) {
   .blog .blogCard__link {
-    font-size: 20px;
+    font-size: 19px;
   }
 }
 @media (max-width: 539px) {
   .blog .blogCard__link {
-    font-size: 17px;
+    font-size: 16px;
     margin-bottom: 5px;
   }
 }
@@ -426,8 +412,9 @@ import { Link } from '@inertiajs/inertia-vue3';
   -moz-column-gap: 20px;
        column-gap: 20px;
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 16px;
   color: #343434;
+  font-weight: 500;
 }
 @media (max-width: 1199px) {
   .blog .blogCardRow {
@@ -446,11 +433,12 @@ import { Link } from '@inertiajs/inertia-vue3';
        column-gap: 7px;
 }
 .blog .blogCardBox1 i {
-  color: #eb2690;
+  color: #f75a5a;
 }
 .blog .blogCard__p {
-  font-size: 18px;
+  font-size: 16px;
   color: #343434;
+  font-weight: 500;
 }
 @media (max-width: 1199px) {
   .blog .blogCard__p {
@@ -469,10 +457,9 @@ import { Link } from '@inertiajs/inertia-vue3';
 }
 .blog .blogBox2 {
   width: 390px;
-  border: 1px solid #dee2e6;
-  border-radius: 10px;
   padding: 25px 25px;
   margin-bottom: 30px;
+  box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.05);
 }
 @media (max-width: 1199px) {
   .blog .blogBox2 {
@@ -493,8 +480,9 @@ import { Link } from '@inertiajs/inertia-vue3';
 }
 .blog .blogBox2__h6 {
   color: #343434;
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 15px;
+  font-weight: 600;
 }
 @media (max-width: 1199px) {
   .blog .blogBox2__h6 {
@@ -503,9 +491,8 @@ import { Link } from '@inertiajs/inertia-vue3';
   }
 }
 .blog .blogBox2Card {
-  padding: 7px;
-  border-radius: 7px;
-  background-color: #f9fafb;
+  padding: 14px;
+  background-color: #f8fbff;
   display: flex;
   align-items: flex-start;
   -moz-column-gap: 15px;
@@ -519,7 +506,6 @@ import { Link } from '@inertiajs/inertia-vue3';
   width: 120px;
   height: 100px;
   background-color: #fff;
-  border-radius: 5px;
   overflow: hidden;
 }
 @media (max-width: 1799px) {
@@ -541,10 +527,11 @@ import { Link } from '@inertiajs/inertia-vue3';
   height: 100%;
 }
 .blog .blogBox2CardBox2__link {
-  color: #000;
+  color: var(--main);
   transition: all 0.3s ease-in-out;
-  font-size: 18px;
+  font-size: 15px;
   display: block;
+  font-weight: 500;
   margin-bottom: 5px;
 }
 .blog .blogBox2CardBox2__link:hover {
@@ -552,7 +539,7 @@ import { Link } from '@inertiajs/inertia-vue3';
 }
 @media (max-width: 1799px) {
   .blog .blogBox2CardBox2__link {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 .blog .blogBox2CardBox2-row {
@@ -560,7 +547,8 @@ import { Link } from '@inertiajs/inertia-vue3';
   align-items: center;
   -moz-column-gap: 7px;
        column-gap: 7px;
-  font-size: 17px;
+  font-size: 15px;
+  font-weight: 500;
 }
 @media (max-width: 1799px) {
   .blog .blogBox2CardBox2-row {
@@ -568,7 +556,7 @@ import { Link } from '@inertiajs/inertia-vue3';
   }
 }
 .blog .blogBox2CardBox2-row i {
-  color: #eb2690;
+  color: #f75a5a;
 }
 @media (max-width: 1799px) {
   .blog .blogBox2CardBox2-row i {
@@ -584,9 +572,11 @@ import { Link } from '@inertiajs/inertia-vue3';
   }
 }
 .blog .blogDetCard__h2 {
-  font-size: 36px;
-  color: #00aef1;
-  margin-bottom: 15px;
+  color: var(--main);
+  font-size: 22px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
 }
 @media (max-width: 1799px) {
   .blog .blogDetCard__h2 {
@@ -610,31 +600,23 @@ import { Link } from '@inertiajs/inertia-vue3';
   }
 }
 .blog .blogDetCardRow {
-  font-size: 20px;
-}
-@media (max-width: 1399px) {
-  .blog .blogDetCardRow {
-    font-size: 18px;
-  }
-}
-@media (max-width: 1199px) {
-  .blog .blogDetCardRow {
-    font-size: 16px;
-  }
+  font-size: 18px;
+  font-weight: 500;
 }
 @media (max-width: 539px) {
   .blog .blogDetCardRow {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 .blog .blogCard__det {
   line-height: 1.6;
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 20px;
+  font-weight: 500;
 }
 @media (max-width: 1399px) {
   .blog .blogCard__det {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 @media (max-width: 1199px) {
@@ -717,10 +699,9 @@ import { Link } from '@inertiajs/inertia-vue3';
 
 .blogBoxCmnt {
   padding: 25px 25px;
-  border: 1px solid #dee2e6;
-  border-radius: 10px;
   width: 100%;
   text-align: initial;
+  box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.05);
 }
 @media (max-width: 1199px) {
   .blogBoxCmnt {
@@ -732,7 +713,8 @@ import { Link } from '@inertiajs/inertia-vue3';
   align-items: center;
   -moz-column-gap: 10px;
        column-gap: 10px;
-  font-size: 26px;
+  font-size: 20px;
+  font-weight: 600;
   margin-bottom: 25px;
 }
 @media (max-width: 1399px) {
@@ -751,12 +733,11 @@ import { Link } from '@inertiajs/inertia-vue3';
   }
 }
 .blogBoxCmnt .blogBoxCmnt__h2 i {
-  color: #eb258f;
+  color: #f75a5a;
 }
 .blogBoxCmnt .blogBoxCmntBox {
   padding: 22px 22px;
   background-color: #f9fafb;
-  border-radius: 10px;
   margin-bottom: 20px;
 }
 @media (max-width: 1199px) {
@@ -771,7 +752,7 @@ import { Link } from '@inertiajs/inertia-vue3';
 }
 .blogBoxCmnt .blogBoxCmntBox__row i {
   font-size: 34px;
-  color: #eb258f;
+  color: #f75a5a;
 }
 @media (max-width: 1399px) {
   .blogBoxCmnt .blogBoxCmntBox__row i {
@@ -803,8 +784,9 @@ import { Link } from '@inertiajs/inertia-vue3';
 }
 .blogBoxCmnt .blogBoxCmntBox__date {
   font-size: 14px;
-  color: #00aef1;
+  color: var(--main);
   margin-bottom: 10px;
+  font-weight: 500;
 }
 .blogBoxCmnt .blogBoxCmntBox__p {
   font-size: 18px;
@@ -852,8 +834,7 @@ import { Link } from '@inertiajs/inertia-vue3';
 .form {
   width: 100%;
   padding: 20px 20px;
-  background-color: #eaeaea;
-  border-radius: 10px;
+  background-color: #ebf5ff;
 }
 @media (max-width: 767px) {
   .form {
@@ -867,7 +848,6 @@ import { Link } from '@inertiajs/inertia-vue3';
   padding: 15px 15px;
   background-color: #fff;
   height: 150px;
-  border-radius: 6px;
   color: #b7b7b7;
   margin-bottom: 15px;
 }
@@ -890,7 +870,6 @@ import { Link } from '@inertiajs/inertia-vue3';
   padding: 15px 15px;
   background-color: #fff;
   height: 50px;
-  border-radius: 6px;
   color: #b7b7b7;
   margin-bottom: 15px;
 }
@@ -922,7 +901,6 @@ import { Link } from '@inertiajs/inertia-vue3';
   padding: 13px 50px;
   font-size: 18px;
   color: #fff;
-  border-radius: 6px;
 }
 .form .form__btn:hover {
   background-color: #fff;
@@ -956,9 +934,8 @@ import { Link } from '@inertiajs/inertia-vue3';
 .blogBox2List .blogBox2List__link {
   width: 40px;
   height: 40px;
-  background-color: #f2f2f2;
+  background-color: #f8fbff;
   font-size: 16px;
-  border-radius: 4px;
 }
 .blogBox2List .blogBox2List__link:hover {
   background-color: transparent;
@@ -977,7 +954,7 @@ import { Link } from '@inertiajs/inertia-vue3';
   color: #00aef3;
 }
 .blogBox2List .blogBox2List__link .fa-instagram {
-  color: #eb258f;
+  color: #f75a5a;
 }
 .blogBox2List .blogBox2List__link .fa-linkedin {
   color: #076b92;
@@ -985,57 +962,5 @@ import { Link } from '@inertiajs/inertia-vue3';
 .blogBox2List .blogBox2List__link .fa-tiktok {
   color: #333;
 }/*# sourceMappingURL=blog.css.map */
-
-
-.pagination {
-  display: flex;
-  align-items: center;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 0 auto;
-}
-@media (max-width: 539px) {
-  .pagination {
-    -moz-column-gap: 5px;
-         column-gap: 5px;
-  }
-}
-.pagination .page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-  width: 35px;
-  height: 35px;
-  background-color: #eb2690;
-  border-bottom: 4px solid #b81f70;
-  color: #fff;
-  border-radius: 50%;
-}
-.pagination .page.active, .pagination .page:hover {
-  background-color: #ffcc2a;
-  border-bottom: 4px solid #e2b626;
-}
-@media (max-width: 539px) {
-  .pagination .page {
-    width: 28px;
-    height: 28px;
-    font-size: 15px;
-  }
-}
-.pagination .page__next,
-.pagination .page__prev {
-  font-size: 14px;
-  background-color: #00a85a;
-  border-bottom: 4px solid #128c53;
-}
-@media (max-width: 539px) {
-  .pagination .page__next,
-  .pagination .page__prev {
-    font-size: 12px;
-  }
-}
 
 </style>

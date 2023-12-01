@@ -16,7 +16,7 @@ import ar from './lang/ar.json';
 window.axios = axios;
 const i18n = createI18n({
   legacy: false,
-  locale: localStorage.getItem('lang')||'ar',
+  locale: localStorage.getItem('lang')||'en',
   messages: {
     en,
     ar,

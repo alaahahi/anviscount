@@ -1,3 +1,7 @@
+.container-fluid{
+    max-width: 1750px;
+    margin: 0 auto;
+}
 .bg-white{
     background-color: #fff;
 }
@@ -32,9 +36,7 @@
     border-radius: 50%;
 }
 
-
 /********************* Container Start **********************/
-
 .container {
     max-width: 1370px !important;
     margin-right: auto;
@@ -63,13 +65,13 @@
 @media (max-width:767px) {
     .container{
         width: 100%;
-        max-width: 540px !important;
+        max-width: 520px !important;
     }
 }
 @media (max-width:539px) {
     .container{
         width: 100%;
-        max-width: 360px !important;
+        max-width: 340px !important;
     }
 }
 /********************* Container End **********************/

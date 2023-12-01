@@ -1,0 +1,204 @@
+.subbanner {
+  height: 280px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.548)), url("../images/iso3.jpg");
+}
+.subbanner .breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0;
+  margin-bottom: 1rem;
+  list-style: none;
+}
+.subbanner .breadcrumb li a {
+  color: #fff;
+}
+.subbanner .breadcrumb li.active {
+  color: #005abb;
+}
+
+.about2 {
+  padding-bottom: 110px;
+}
+@media (max-width: 1399px) {
+  .about2 {
+    padding-bottom: 10px;
+  }
+}
+
+.values .hmabtBo2__para2 {
+  display: block !important;
+  -webkit-line-clamp: unset !important;
+  overflow: visible !important;
+}
+
+.abt2 {
+  padding: 0 0 50px 0;
+}
+.abt2 .abt2List {
+  display: block;
+  background: #fff;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.03);
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.abt2 .abt2List .abt2List__item .abt2List__btn {
+  width: 100%;
+  text-align: inherit;
+  padding: 13px 18px;
+  font-size: 16px;
+  color: #000;
+  border-radius: 0;
+  font-weight: 600;
+}
+.abt2 .abt2List .abt2List__item .abt2List__btn.active:hover, .abt2 .abt2List .abt2List__item .abt2List__btn.active {
+  background-color: var(--main);
+  color: #fff;
+}
+.abt2 .abt2List .abt2List__item .abt2List__btn:hover {
+  background: #f5f5f5;
+  color: var(--main);
+}
+@media (max-width: 1599px) {
+  .abt2 .abt2List .abt2List__item .abt2List__btn {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1399px) {
+  .abt2 .abt2List .abt2List__item .abt2List__btn {
+    font-size: 14px;
+  }
+}
+.abt2 .sercrd {
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.03);
+  padding: 20px;
+}
+@media (max-width: 539px) {
+  .abt2 .sercrd {
+    padding: 10px;
+  }
+}
+.abt2 .sercrd .sercrdImgHol {
+  height: 360px;
+  overflow: hidden;
+}
+@media (max-width: 1399px) {
+  .abt2 .sercrd .sercrdImgHol {
+    height: 320px;
+  }
+}
+@media (max-width: 539px) {
+  .abt2 .sercrd .sercrdImgHol {
+    height: 200px;
+  }
+}
+.abt2 .sercrd .sercrdImgHol .sercrd__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  transition: all 0.5s ease-in-out;
+}
+.abt2 .sercrd .sercrdImgHol:hover .sercrd__img {
+  transform: rotate(15deg) scale(1.67);
+  transition: all 0.5s ease-in-out;
+}
+.abt2 .sercrd .sercrdBody {
+  padding: 30px 10px 10px 10px;
+  background-color: #fff;
+}
+@media (max-width: 539px) {
+  .abt2 .sercrd .sercrdBody {
+    padding: 15px 10px 10px 10px;
+  }
+}
+.abt2 .sercrd .sercrdBody .sercrdBody__link {
+  display: block;
+  font-weight: 700;
+  color: var(--main);
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+@media (max-width: 1399px) {
+  .abt2 .sercrd .sercrdBody .sercrdBody__link {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1199px) {
+  .abt2 .sercrd .sercrdBody .sercrdBody__link {
+    font-size: 17px;
+  }
+}
+@media (max-width: 539px) {
+  .abt2 .sercrd .sercrdBody .sercrdBody__link {
+    font-size: 16px;
+  }
+}
+.abt2 .sercrd .sercrdBody .sercrdBody__p {
+  font-size: 17px;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+@media (max-width: 1399px) {
+  .abt2 .sercrd .sercrdBody .sercrdBody__p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 539px) {
+  .abt2 .sercrd .sercrdBody .sercrdBody__p {
+    font-size: 14px;
+  }
+}
+.abt2 .sercrd .sercrdBody .sercrdBody__link2 {
+  font-size: 17px;
+  color: var(--main);
+  font-weight: 400;
+  text-underline-offset: 3px;
+}
+.abt2 .sercrd .sercrdBody .sercrdBody__link2:hover {
+  text-decoration: underline;
+}
+@media (max-width: 539px) {
+  .abt2 .sercrd .sercrdBody .sercrdBody__link2 {
+    font-size: 14px;
+  }
+}
+.abt2 .sercrd .sercrdBody .sercrdBody__link3 {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 12px 30px;
+  font-size: 16px;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  background-color: var(--main);
+  margin-top: 25px;
+  color: #fff;
+}
+@media (max-width: 539px) {
+  .abt2 .sercrd .sercrdBody .sercrdBody__link3 {
+    font-size: 14px;
+  }
+}
+.abt2 .sercrd .sercrdBody .sercrdBodyList {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.abt2 .sercrd .sercrdBody .sercrdBodyList .sercrdBody__p2 {
+  margin-bottom: 30px;
+}
+.abt2 .sercrd .sercrdBody .sercrdBodyList .sercrdBodysign h6 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 7px;
+}/*# sourceMappingURL=about.css.map */

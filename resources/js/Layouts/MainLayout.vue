@@ -15,11 +15,6 @@ defineProps({
 
 <template>
     <Header></Header>
-      	<!-- header end -->
-	<div class="subbanner" v-if="!isHome">
-		<h2 class="subbanner__bg1">ض</h2>
-		<h2 class="subbanner__bg2">أ</h2>
-	</div>
         <slot ></slot>
     <Footer></Footer>
 </template>

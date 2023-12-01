@@ -1,0 +1,142 @@
+:root {
+    --primary-color: #628FA9;
+    --secondry-color: #1F3142;
+    --tertiary-color: #315B72;
+}
+.footer{
+    background-color: var(--secondry-color);
+    padding: 40px 0 20px 0;
+}
+.footer__logo{
+    width: 140px;
+    margin-bottom: 10px;
+}
+.footer__p{
+    font-size: 13px;
+    max-width: 140px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footer__h{
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+}
+.footerbox{
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 25px;
+}
+.footerbox i{
+    color: #fff;
+    transform: translateY(3px);
+    font-size: 18px;
+}
+.footerbox span{
+    width: calc(100% - 40px);
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+}
+.ftrlist{
+    color: white;
+    list-style: none;
+    padding-left: 0;
+}
+.ftrlist li{
+    margin-bottom: 5px;
+}
+.ftrlist li a{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+}
+.ftrlist li a:hover{
+    text-decoration: underline;
+}
+.ftrsm{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+.ftrsm li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.902);
+    transition: all 0.3s ease-in-out;
+}
+.ftrsm li a:hover{
+    background-color: var(--main);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.footerrow{
+    margin-bottom: 30px;
+}
+.footer-devider{
+    border-top: 1px solid rgba(255,255,255,0.6);
+}
+.footer-copyright {
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+    padding-top: 10px;
+    font-weight: 500;
+}
+@media(max-width:1399px){
+    .footer__h{
+        font-size: 16px;
+    }
+    .footer-copyright,
+    .footerbox span{
+        font-size: 13px;
+    }
+    .footer__logo{
+        width: 120px;
+    }
+}
+@media(max-width:1023px){
+    .footerrow{
+        row-gap: 20px;
+    }
+}
+@media(max-width:767px){
+    .footer__logo {
+        width: 140px;
+        margin-bottom: 10px;
+    }
+    .footer__p {
+        font-size: 12;
+    }
+    .footerrow{
+        row-gap: 40px;
+    }
+    .footer__h {
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+    .footerbox span {
+        font-size: 0.85rem;
+    }
+    .footerbox {
+        margin-bottom: 10px;
+    }
+    .footer {
+        padding: 35px 0 30px 0;
+    }
+    .footerrow2{
+        flex-wrap: wrap;
+    }
+    .footerrow{
+        row-gap: 16px;
+    }
+    .footer__logo {
+        width: 100px;
+        margin-bottom: 10px;
+    }
+}
