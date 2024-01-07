@@ -161,3 +161,7 @@ button {
 .viscount-img-bg {
   background-color: #d0e4fc;
 }
+
+button ,.htbox2Btn  {
+  border-radius: 30px !important
+}

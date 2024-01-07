@@ -72,7 +72,7 @@ defineProps({
 				ref="{swiperRef}"
 				:modules="[Autoplay]"
 				:navigation="true"
-				:slides-per-view="4"
+				:slides-per-view="2"
 				:space-between="10"
 				:loop="true"
 				:speed="800"
